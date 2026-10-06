@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff"/>
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#111" stroke-width="2"/>
+  <text x="400" y="85" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">Ingestion bus (12)</text>
+  <rect x="80" y="140" width="180" height="100" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="170" y="200" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Circular buffer (14)</text>
+  <line x1="170" y1="100" x2="170" y2="140" stroke="#111" stroke-width="1.5"/>
+  <rect x="300" y="140" width="200" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="400" y="185" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Firmware process (16)</text>
+  <line x1="400" y1="100" x2="400" y2="140" stroke="#111" stroke-width="1.5"/>
+  <rect x="100" y="280" width="140" height="70" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="170" y="325" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Mean interval (18)</text>
+  <line x1="170" y1="240" x2="170" y2="280" stroke="#111" stroke-width="1.5"/>
+  <rect x="280" y="280" width="140" height="70" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="350" y="325" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Std dev unit (20)</text>
+  <line x1="350" y1="220" x2="350" y2="280" stroke="#111" stroke-width="1.5"/>
+  <rect x="460" y="280" width="120" height="70" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="520" y="325" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Comparator (22)</text>
+  <line x1="520" y1="220" x2="520" y2="280" stroke="#111" stroke-width="1.5"/>
+  <rect x="620" y="280" width="140" height="70" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="690" y="325" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Entropy calc (24)</text>
+  <line x1="690" y1="220" x2="690" y2="280" stroke="#111" stroke-width="1.5"/>
+  <rect x="280" y="400" width="240" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="400" y="450" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Decision tree (26)</text>
+  <line x1="520" y1="350" x2="400" y2="400" stroke="#111" stroke-width="1.5"/>
+  <rect x="100" y="400" width="140" height="70" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="170" y="445" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">SimHash (28)</text>
+  <line x1="170" y1="350" x2="170" y2="400" stroke="#111" stroke-width="1.5"/>
+  <rect x="560" y="400" width="140" height="70" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="630" y="445" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Ratio check (30)</text>
+  <line x1="690" y1="350" x2="630" y2="400" stroke="#111" stroke-width="1.5"/>
+  <rect x="300" y="520" width="200" height="50" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="400" y="555" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">OTA update (32)</text>
+  <line x1="400" y1="480" x2="400" y2="520" stroke="#111" stroke-width="1.5"/>
+  <rect x="560" y="520" width="160" height="50" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="640" y="555" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Registers (34)</text>
+  <line x1="630" y1="470" x2="640" y2="520" stroke="#111" stroke-width="1.5"/>
+  <rect x="80" y="520" width="160" height="50" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="160" y="555" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Throttle (36)</text>
+  <line x1="170" y1="470" x2="160" y2="520" stroke="#111" stroke-width="1.5"/>
+  <text x="400" y="590" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 1</text>
+</svg>
