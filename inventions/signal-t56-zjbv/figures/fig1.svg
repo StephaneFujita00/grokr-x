@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fff"/>
+  <!-- Device enclosure -->
+  <rect x="50" y="50" width="700" height="500" rx="20" ry="20" fill="none" stroke="#111" stroke-width="3"/>
+  <!-- Main processor -->
+  <rect x="100" y="100" width="200" height="120" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="200" y="170" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">Main Processor</text>
+  <text x="200" y="190" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">(14)</text>
+  <!-- Firmware loader -->
+  <rect x="350" y="100" width="200" height="120" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="450" y="160" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">Firmware Loader</text>
+  <text x="450" y="180" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">(12)</text>
+  <!-- Leader to loader -->
+  <line x1="450" y1="220" x2="450" y2="280" stroke="#111" stroke-width="1.5"/>
+  <text x="470" y="260" font-family="Helvetica, Arial, sans-serif" font-size="11">(12)</text>
+  <!-- Ring buffer cache -->
+  <rect x="600" y="100" width="120" height="120" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Hatching for cache -->
+  <path d="M610 110 L710 210 M620 110 L710 200 M630 110 L710 190" fill="none" stroke="#111" stroke-width="1"/>
+  <text x="660" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Ring Buffer</text>
+  <text x="660" y="190" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Cache (16)</text>
+  <!-- Network stack -->
+  <rect x="100" y="280" width="150" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="175" y="325" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Network Stack</text>
+  <!-- Network sensor -->
+  <rect x="300" y="280" width="150" height="80" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="375" y="325" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Network Sensor</text>
+  <text x="375" y="345" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">(18)</text>
+  <!-- Leader lines -->
+  <line x1="200" y1="220" x2="200" y2="280" stroke="#111" stroke-width="1.5"/>
+  <text x="180" y="260" font-family="Helvetica, Arial, sans-serif" font-size="11">(14)</text>
+  <line x1="660" y1="220" x2="660" y2="280" stroke="#111" stroke-width="1.5"/>
+  <text x="680" y="260" font-family="Helvetica, Arial, sans-serif" font-size="11">(16)</text>
+  <line x1="375" y1="360" x2="375" y2="400" stroke="#111" stroke-width="1.5"/>
+  <text x="395" y="390" font-family="Helvetica, Arial, sans-serif" font-size="11">(18)</text>
+  <!-- Connection arrows -->
+  <line x1="300" y1="160" x2="350" y2="160" stroke="#111" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="550" y1="160" x2="600" y2="160" stroke="#111" stroke-width="2"/>
+  <line x1="175" y1="280" x2="175" y2="220" stroke="#111" stroke-width="2"/>
+  <!-- Caption -->
+  <text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 1</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111"/>
+    </marker>
+  </defs>
+</svg>
