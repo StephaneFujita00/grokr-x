@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<rect width="800" height="600" fill="#fff"/>
+<rect x="50" y="50" width="700" height="500" fill="none" stroke="#111" stroke-width="2"/>
+<text x="400" y="30" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle">Firmware Module (10)</text>
+<rect x="80" y="80" width="150" height="80" fill="none" stroke="#111" stroke-width="2"/>
+<text x="155" y="125" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Post Ingest (12)</text>
+<rect x="80" y="180" width="150" height="60" fill="none" stroke="#111" stroke-width="2"/>
+<text x="155" y="215" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Device Fingerprint (14)</text>
+<rect x="80" y="260" width="150" height="60" fill="none" stroke="#111" stroke-width="2"/>
+<text x="155" y="295" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Content Hash (16)</text>
+<rect x="280" y="80" width="200" height="120" fill="none" stroke="#111" stroke-width="2"/>
+<text x="380" y="140" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Circular Buffer (18)</text>
+<line x1="230" y1="120" x2="280" y2="120" stroke="#111" stroke-width="2"/>
+<rect x="280" y="220" width="200" height="100" fill="none" stroke="#111" stroke-width="2"/>
+<text x="380" y="270" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Graph Updater (20)</text>
+<text x="380" y="290" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Adjacency Matrix (22)</text>
+<line x1="230" y1="270" x2="280" y2="270" stroke="#111" stroke-width="2"/>
+<rect x="520" y="80" width="200" height="120" fill="none" stroke="#111" stroke-width="2"/>
+<text x="620" y="140" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Coordination Calculator (24)</text>
+<line x1="480" y1="140" x2="520" y2="140" stroke="#111" stroke-width="2"/>
+<rect x="520" y="220" width="200" height="80" fill="none" stroke="#111" stroke-width="2"/>
+<text x="620" y="265" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Flag Generator (26)</text>
+<line x1="480" y1="270" x2="520" y2="270" stroke="#111" stroke-width="2"/>
+<rect x="280" y="360" width="200" height="80" fill="none" stroke="#111" stroke-width="2"/>
+<text x="380" y="405" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Review Queue (28) / Rate Limiter (30)</text>
+<line x1="620" y1="300" x2="380" y2="360" stroke="#111" stroke-width="2"/>
+<rect x="520" y="360" width="200" height="80" fill="none" stroke="#111" stroke-width="2"/>
+<text x="620" y="405" font-family="Helvetica, Arial, sans-serif" font-size="11" text-anchor="middle">Fallback Heuristics (32)</text>
+<line x1="620" y1="300" x2="620" y2="360" stroke="#111" stroke-width="2"/>
+<text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 1</text>
+</svg>
